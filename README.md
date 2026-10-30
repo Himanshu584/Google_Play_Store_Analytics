@@ -89,15 +89,11 @@ CALCULATE(
 App-Insights-Unlocked/
 ├── Google_Play_Store_Analytics.pbix
 ├── README.md
-├── data/
-│   └── googleplaystore.csv
-└── docs/
-    ├── App_Insights_Unlocked_Case_Study.docx
-    ├── App_Insights_Unlocked_Final_Solution_Guide.docx
-    └── Additional_Resources.docx          # Add when prepared
+├──  googleplaystore.csv
+├── Case_Study.docx
+├── Solution_Guide.docx
 ```
 
-*Adjust filenames and folder paths to match the files you actually upload. The Additional Resources document is planned and should not be linked until it exists.*
 
 ## How to explore the report
 
@@ -106,13 +102,12 @@ App-Insights-Unlocked/
 3. Start on **Dashboard Overview** for a summary.
 4. Use the page navigator to explore detailed analysis.
 5. Use the category metric selector and **Rank Apps By** selector to change chart measures.
-6. If Power BI prompts for a data source, point it to the CSV in the `data` folder and refresh.
+6. If Power BI prompts for a data source, point it to the googleplaystore.csv and refresh.
 
 ## Project documentation
 
 - **Case Study:** business problem, objectives, data dictionary, and 25 analytical questions.
 - **Solution Guide:** analytical approaches, observed findings, DAX examples, and explicit limitations for questions that cannot be fully answered.
-- **Additional Resources:** further reading and reference material (to be added).
 
 ## Takeaway
 
